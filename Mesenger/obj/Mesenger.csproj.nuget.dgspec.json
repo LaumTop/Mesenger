@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/laumtop/RiderProjects/Masanger/Mesenger/Mesenger.csproj": {}
+  },
+  "projects": {
+    "/home/laumtop/RiderProjects/Masanger/Mesenger/Mesenger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/laumtop/RiderProjects/Masanger/Mesenger/Mesenger.csproj",
+        "projectName": "Mesenger",
+        "projectPath": "/home/laumtop/RiderProjects/Masanger/Mesenger/Mesenger.csproj",
+        "packagesPath": "/home/laumtop/.nuget/packages/",
+        "outputPath": "/home/laumtop/RiderProjects/Masanger/Mesenger/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/laumtop/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.15, )"
+            },
+            "MassTransit.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.2.3-develop.1812, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-preview.4.24267.1, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/laumtop/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
